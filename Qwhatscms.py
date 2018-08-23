@@ -48,7 +48,8 @@ def menus():
                 www = raw_input("Domain: http://")
                 sigle(www)
             elif ops == 2:
-                fil = "E:\TOOLS PYTHON\webs.txt"
+                pritn "Example: E:\TOOLS PYTHON\webs.txt"
+                fil = raw_input("Insert FUll Path: ")
                 start_list(fil)
             else:
                 print "tidak ada nomor: ", ops
